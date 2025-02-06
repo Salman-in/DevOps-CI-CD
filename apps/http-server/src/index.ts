@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Hi there");
+    res.send("Salman s HTTP server on production");
 })
 
 app.post("/signup", async (req, res) => {
