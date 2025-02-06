@@ -6,7 +6,7 @@ export default async function Home() {
 
   return (
     <div>
-      first name on prod: 
+      first name on production: 
       {user?.username}
       password: 
       {user?.password}
